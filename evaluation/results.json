@@ -1,0 +1,277 @@
+{
+  "limitations": [
+    "The examples and labels were created by the developer, not recruiters.",
+    "Profiles are concise synthetic summaries and are easier than real resumes.",
+    "MiniLM is disabled so the result evaluates deterministic lexical and skill components only.",
+    "These metrics must not be described as hiring accuracy or real-world model performance."
+  ],
+  "metrics": {
+    "benchmark_type": "developer-curated deterministic functional benchmark; MiniLM disabled",
+    "profile_count": 16,
+    "role_count": 8,
+    "comparisons": 128,
+    "top_1_accuracy": 1.0,
+    "top_3_recall": 1.0,
+    "mean_reciprocal_rank": 1.0,
+    "median_profile_latency_ms": 5.731,
+    "p95_profile_latency_ms": 6.35
+  },
+  "details": [
+    {
+      "profile_id": "p01",
+      "expected_role": "python_backend",
+      "predicted_role": "python_backend",
+      "expected_role_rank": 1,
+      "ranked_roles": [
+        "python_backend",
+        "java_backend",
+        "qa",
+        "devops",
+        "machine_learning",
+        "ios",
+        "frontend",
+        "data_analyst"
+      ]
+    },
+    {
+      "profile_id": "p02",
+      "expected_role": "python_backend",
+      "predicted_role": "python_backend",
+      "expected_role_rank": 1,
+      "ranked_roles": [
+        "python_backend",
+        "qa",
+        "data_analyst",
+        "devops",
+        "java_backend",
+        "machine_learning",
+        "ios",
+        "frontend"
+      ]
+    },
+    {
+      "profile_id": "p03",
+      "expected_role": "frontend",
+      "predicted_role": "frontend",
+      "expected_role_rank": 1,
+      "ranked_roles": [
+        "frontend",
+        "ios",
+        "qa",
+        "java_backend",
+        "python_backend",
+        "devops",
+        "machine_learning",
+        "data_analyst"
+      ]
+    },
+    {
+      "profile_id": "p04",
+      "expected_role": "frontend",
+      "predicted_role": "frontend",
+      "expected_role_rank": 1,
+      "ranked_roles": [
+        "frontend",
+        "ios",
+        "qa",
+        "java_backend",
+        "python_backend",
+        "machine_learning",
+        "devops",
+        "data_analyst"
+      ]
+    },
+    {
+      "profile_id": "p05",
+      "expected_role": "machine_learning",
+      "predicted_role": "machine_learning",
+      "expected_role_rank": 1,
+      "ranked_roles": [
+        "machine_learning",
+        "data_analyst",
+        "qa",
+        "python_backend",
+        "devops",
+        "java_backend",
+        "frontend",
+        "ios"
+      ]
+    },
+    {
+      "profile_id": "p06",
+      "expected_role": "machine_learning",
+      "predicted_role": "machine_learning",
+      "expected_role_rank": 1,
+      "ranked_roles": [
+        "machine_learning",
+        "data_analyst",
+        "python_backend",
+        "qa",
+        "devops",
+        "java_backend",
+        "frontend",
+        "ios"
+      ]
+    },
+    {
+      "profile_id": "p07",
+      "expected_role": "devops",
+      "predicted_role": "devops",
+      "expected_role_rank": 1,
+      "ranked_roles": [
+        "devops",
+        "python_backend",
+        "java_backend",
+        "qa",
+        "machine_learning",
+        "frontend",
+        "data_analyst",
+        "ios"
+      ]
+    },
+    {
+      "profile_id": "p08",
+      "expected_role": "devops",
+      "predicted_role": "devops",
+      "expected_role_rank": 1,
+      "ranked_roles": [
+        "devops",
+        "java_backend",
+        "python_backend",
+        "qa",
+        "machine_learning",
+        "ios",
+        "frontend",
+        "data_analyst"
+      ]
+    },
+    {
+      "profile_id": "p09",
+      "expected_role": "data_analyst",
+      "predicted_role": "data_analyst",
+      "expected_role_rank": 1,
+      "ranked_roles": [
+        "data_analyst",
+        "machine_learning",
+        "qa",
+        "python_backend",
+        "frontend",
+        "ios",
+        "devops",
+        "java_backend"
+      ]
+    },
+    {
+      "profile_id": "p10",
+      "expected_role": "data_analyst",
+      "predicted_role": "data_analyst",
+      "expected_role_rank": 1,
+      "ranked_roles": [
+        "data_analyst",
+        "machine_learning",
+        "qa",
+        "python_backend",
+        "frontend",
+        "devops",
+        "ios",
+        "java_backend"
+      ]
+    },
+    {
+      "profile_id": "p11",
+      "expected_role": "ios",
+      "predicted_role": "ios",
+      "expected_role_rank": 1,
+      "ranked_roles": [
+        "ios",
+        "qa",
+        "frontend",
+        "java_backend",
+        "python_backend",
+        "devops",
+        "data_analyst",
+        "machine_learning"
+      ]
+    },
+    {
+      "profile_id": "p12",
+      "expected_role": "ios",
+      "predicted_role": "ios",
+      "expected_role_rank": 1,
+      "ranked_roles": [
+        "ios",
+        "qa",
+        "frontend",
+        "java_backend",
+        "python_backend",
+        "devops",
+        "machine_learning",
+        "data_analyst"
+      ]
+    },
+    {
+      "profile_id": "p13",
+      "expected_role": "java_backend",
+      "predicted_role": "java_backend",
+      "expected_role_rank": 1,
+      "ranked_roles": [
+        "java_backend",
+        "python_backend",
+        "devops",
+        "qa",
+        "ios",
+        "machine_learning",
+        "frontend",
+        "data_analyst"
+      ]
+    },
+    {
+      "profile_id": "p14",
+      "expected_role": "java_backend",
+      "predicted_role": "java_backend",
+      "expected_role_rank": 1,
+      "ranked_roles": [
+        "java_backend",
+        "qa",
+        "ios",
+        "python_backend",
+        "devops",
+        "frontend",
+        "data_analyst",
+        "machine_learning"
+      ]
+    },
+    {
+      "profile_id": "p15",
+      "expected_role": "qa",
+      "predicted_role": "qa",
+      "expected_role_rank": 1,
+      "ranked_roles": [
+        "qa",
+        "python_backend",
+        "ios",
+        "devops",
+        "java_backend",
+        "frontend",
+        "machine_learning",
+        "data_analyst"
+      ]
+    },
+    {
+      "profile_id": "p16",
+      "expected_role": "qa",
+      "predicted_role": "qa",
+      "expected_role_rank": 1,
+      "ranked_roles": [
+        "qa",
+        "ios",
+        "frontend",
+        "python_backend",
+        "java_backend",
+        "devops",
+        "data_analyst",
+        "machine_learning"
+      ]
+    }
+  ]
+}

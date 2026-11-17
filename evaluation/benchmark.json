@@ -1,0 +1,32 @@
+{
+  "description": "Developer-curated functional benchmark for role-ranking behavior. It is not a hiring-outcome dataset.",
+  "roles": [
+    {"id": "python_backend", "title": "Python Backend Engineer", "text": "Develop Python backend services with FastAPI, PostgreSQL, REST APIs, Redis, Docker, Git, AWS, and CI/CD."},
+    {"id": "frontend", "title": "Frontend Engineer", "text": "Build accessible user interfaces using JavaScript, TypeScript, React, HTML, CSS, REST APIs, Git, and Agile development."},
+    {"id": "machine_learning", "title": "Machine Learning Engineer", "text": "Build machine learning and NLP pipelines with Python, PyTorch, scikit-learn, Pandas, NumPy, Docker, AWS, and large language models."},
+    {"id": "devops", "title": "DevOps Engineer", "text": "Operate cloud infrastructure using AWS, Docker, Kubernetes, Linux, Bash, Jenkins, CI/CD, Git, Redis, and monitoring practices."},
+    {"id": "data_analyst", "title": "Data Analyst", "text": "Analyze business data using SQL, Python, Pandas, Excel, Power BI, Tableau, and data visualization; communicate findings to stakeholders."},
+    {"id": "ios", "title": "iOS Engineer", "text": "Create native iOS applications using Swift, SwiftUI, REST APIs, Git, Agile practices, and automated mobile testing."},
+    {"id": "java_backend", "title": "Java Backend Engineer", "text": "Develop Java services with Spring Boot, REST APIs, PostgreSQL, Kafka, Docker, Kubernetes, Git, and AWS."},
+    {"id": "qa", "title": "QA Automation Engineer", "text": "Design automated web and API tests using Python, Selenium, REST APIs, Git, CI/CD, Agile, and Docker."}
+  ],
+  "profiles": [
+    {"id": "p01", "expected_role": "python_backend", "text": "Python backend developer who built FastAPI REST APIs backed by PostgreSQL and Redis, containerized with Docker and deployed to AWS."},
+    {"id": "p02", "expected_role": "python_backend", "text": "Software engineer developing Python Flask and FastAPI microservices, SQL databases, Git workflows, Docker images, and cloud deployments."},
+    {"id": "p03", "expected_role": "frontend", "text": "Frontend developer building responsive React and TypeScript applications with JavaScript, HTML, CSS, REST APIs, Git, and Agile teams."},
+    {"id": "p04", "expected_role": "frontend", "text": "Created accessible web interfaces in React.js, JavaScript, Tailwind CSS, HTML5, and TypeScript while integrating REST APIs."},
+    {"id": "p05", "expected_role": "machine_learning", "text": "Machine learning engineer using Python, PyTorch, scikit-learn, Pandas, NumPy, NLP, transformers, and Docker for model development."},
+    {"id": "p06", "expected_role": "machine_learning", "text": "Built NLP and large language model evaluation pipelines using Python, TensorFlow, Pandas, NumPy, and AWS."},
+    {"id": "p07", "expected_role": "devops", "text": "DevOps engineer managing AWS infrastructure, Kubernetes clusters, Docker containers, Linux servers, Bash automation, Jenkins, and CI/CD."},
+    {"id": "p08", "expected_role": "devops", "text": "Cloud engineer automating deployments with Docker, Kubernetes, AWS, Git, Linux shell scripting, and continuous integration pipelines."},
+    {"id": "p09", "expected_role": "data_analyst", "text": "Data analyst producing business dashboards with Power BI and Tableau, querying SQL, and analyzing data using Excel, Python, and Pandas."},
+    {"id": "p10", "expected_role": "data_analyst", "text": "Performed reporting and data visualization with SQL, Microsoft Excel, PowerBI, Tableau, Pandas, and Python."},
+    {"id": "p11", "expected_role": "ios", "text": "iOS developer shipping native applications in Swift and SwiftUI, integrating REST APIs, using Git, and working in Agile teams."},
+    {"id": "p12", "expected_role": "ios", "text": "Mobile engineer creating SwiftUI interfaces and Swift iOS features connected to RESTful web services with Git-based collaboration."},
+    {"id": "p13", "expected_role": "java_backend", "text": "Java backend engineer building Spring Boot REST APIs with PostgreSQL and Kafka, packaged in Docker and deployed on Kubernetes and AWS."},
+    {"id": "p14", "expected_role": "java_backend", "text": "Developed Java Spring Framework microservices, RESTful APIs, SQL persistence, Kafka events, Docker, Git, and cloud infrastructure."},
+    {"id": "p15", "expected_role": "qa", "text": "QA automation engineer writing Python and Selenium suites for web and REST API testing, integrated with Git, Docker, and CI/CD."},
+    {"id": "p16", "expected_role": "qa", "text": "Built automated regression tests with Selenium, Python, REST APIs, Jenkins, Git, and Agile quality practices."}
+  ]
+}
+
